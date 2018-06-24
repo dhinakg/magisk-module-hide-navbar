@@ -1,11 +1,11 @@
-#### Hide navigation bar
+#### Show navigation bar
 
-This module will hide navigation bar (for LMT or other gesture app users).
+This module will show navigation bar (for LMT or other gesture app users).
 Tested on Android 8.1 Oreo ROM (Google Pixel 2 XL).
 
 #### How does it works?
 
-This module sets "qemu.hw.mainkeys" property to "1", which means "this device has hardware navigation key and we should hide navigation bar".
+This module sets "qemu.hw.mainkeys" property to "0", which means "this device does not have hardware navigation key and we should show navigation bar".
 
 #### NOTICE
 
@@ -13,7 +13,7 @@ This module sets "qemu.hw.mainkeys" property to "1", which means "this device ha
 
 #### Credit & Support
 
-* Any issue or pull request is welcome at [GitHub](https://github.com/Magisk-Modules-Repo/magisk-module-hide-navbar).
+* Any issue or pull request is welcome at [GitHub](https://github.com/dhinakg/magisk-module-show-navbar).
 
 ## Change log
 
