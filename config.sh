@@ -41,7 +41,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "      Hide navigation bar        "
+  ui_print "      Show navigation bar        "
   ui_print "*******************************"
 }
 
